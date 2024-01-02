@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-  width: 640px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -19,7 +19,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 640px;
+  width: 700px;
   height: 480px;
   background-color: rgba(0,0,0,0);
 }
