@@ -7,8 +7,6 @@ const overlay = document.querySelector('.overlay');
 /* Declaring the array of image filenames */
 const imgFileNames = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg"];
 
-console.log(`The length of the imgFileNames array is: ${imgFileNames.length}`);
-
 /* Declaring the alternative text for each image file */
 
 /* Looping through images */
@@ -24,12 +22,6 @@ for (let i = 0; i < imgFileNames.length; i++) {
         const imgAlt =  event.target.getAttribute('alt');
         displayedImage.setAttribute('src', `${imgSrc}`);
         displayedImage.setAttribute('alt', `${imgAlt}`);
-        console.log(
-            `
-                The image SRC is: ${imgSrc}
-                The imag ALT is: ${imgAlt}
-            `
-        );
     });
 }
 
