@@ -10,7 +10,15 @@ To test comprehension of JavaScript loops, functions, conditionals, and events.
 
 https://jasheloper.github.io/js-image-gallery/
 
+<br>
+
+Lighten Mode (default)
+
 ![Image Gallery Demo - Jashele T.](demo1.png)
+
+
+Darken Mode (default)
+
 ![Image Gallery Demo - Jashele T.](demo2.png)
 
 
