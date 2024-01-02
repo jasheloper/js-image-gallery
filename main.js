@@ -25,7 +25,6 @@ for (let i = 0; i < imgFileNames.length; i++) {
     });
 }
 
-
 /* Wiring up the Darken/Lighten button */
 btn.addEventListener("click", (event) => {
     const btnClass = btn.getAttribute('class');
