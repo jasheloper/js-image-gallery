@@ -5,6 +5,7 @@ const btn = document.querySelector('button');
 const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
+
 const imgFileNames = ["pic1.jpg", "pic2.jpg", "pic3.jpg", "pic4.jpg", "pic5.jpg"];
 const imgAltNames = ["Valley of the Sun", "Mountain Walk", "Desert Flowers", "Mountains and Desert", "Sunrise"];
 
@@ -27,6 +28,7 @@ for (let i = 0; i < imgFileNames.length; i++) {
 }
 
 /* Wiring up the Darken/Lighten button */
+
 btn.addEventListener("click", (event) => {
     const btnClass = btn.getAttribute('class');
     if (btnClass === "dark") {
