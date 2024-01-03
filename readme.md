@@ -14,10 +14,17 @@ https://jasheloper.github.io/js-image-gallery/
 
 *Lighten Mode (default)*
 
+<br>
+
 ![Image Gallery Demo - Jashele T.](demo1.png)
+
+<br>
+<br>
 
 
 *Darken Mode (default)*
+
+<br>
 
 ![Image Gallery Demo - Jashele T.](demo2.png)
 
